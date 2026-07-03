@@ -1,0 +1,789 @@
+/* =====================================
+   Google Font
+===================================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Poppins",sans-serif;
+}
+
+body{
+    background:#f5f7fb;
+}
+
+/* =====================================
+   Section
+===================================== */
+
+.mega-wrapper{
+
+    padding:70px 0;
+
+}
+
+.demo-heading{
+
+    text-align:center;
+
+    color:#0b1f57;
+
+    font-size:34px;
+
+    font-weight:700;
+
+    margin-bottom:35px;
+
+}
+
+/* =====================================
+   Desktop Mega Menu
+===================================== */
+
+.mega-menu-box{
+
+    position:relative;
+
+    display:flex;
+
+    background:#fff;
+
+    border-radius:22px;
+
+    overflow:hidden;
+
+    min-height:580px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.10);
+
+}
+
+/* Top Arrow */
+
+.triangle{
+
+    position:absolute;
+
+    width:24px;
+
+    height:24px;
+
+    background:#fff;
+
+    top:-12px;
+
+    left:160px;
+
+    transform:rotate(45deg);
+
+}
+
+/* =====================================
+   Left Side
+===================================== */
+
+.menu-left{
+
+    width:58%;
+
+    background:#fff;
+
+    padding:20px 0;
+
+}
+
+.menu-item{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+
+    padding:22px 30px;
+
+    cursor:pointer;
+
+    transition:.35s;
+
+    border-bottom:1px solid #ececec;
+
+}
+
+.menu-item:last-child{
+
+    border-bottom:none;
+
+}
+
+.menu-item:hover{
+
+    background:#fff6ef;
+
+}
+
+.menu-icon{
+
+    width:58px;
+
+    height:58px;
+
+    border-radius:50%;
+
+    background:#f8f8f8;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:#0b1f57;
+
+    font-size:28px;
+
+    transition:.3s;
+
+}
+
+.menu-item:hover .menu-icon{
+
+    background:#ff8a00;
+
+    color:#fff;
+
+}
+
+.menu-item h4{
+
+    font-size:22px;
+
+    color:#222;
+
+    margin-bottom:5px;
+
+    font-weight:600;
+
+}
+
+.menu-item p{
+
+    margin:0;
+
+    color:#777;
+
+    font-size:15px;
+
+    line-height:24px;
+
+}
+ /* =====================================
+   Right Side Card
+===================================== */
+
+.menu-right{
+
+    width:42%;
+
+    background:#ff8a00;
+
+    color:#fff;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:50px 35px;
+
+}
+
+.right-icon{
+
+    width:90px;
+
+    height:90px;
+
+    border-radius:50%;
+
+    background:rgba(255,255,255,.18);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:42px;
+
+    margin-bottom:25px;
+
+    border:2px solid rgba(255,255,255,.35);
+
+}
+
+.menu-right h2{
+
+    font-size:38px;
+
+    line-height:52px;
+
+    font-weight:700;
+
+    margin-bottom:20px;
+
+}
+
+.orange-line{
+
+    width:90px;
+
+    height:4px;
+
+    background:#fff;
+
+    border-radius:50px;
+
+    margin-bottom:25px;
+
+}
+
+.menu-right p{
+
+    font-size:18px;
+
+    line-height:32px;
+
+    color:#fff;
+
+    margin-bottom:35px;
+
+}
+
+.learn-btn{
+
+    border:none;
+
+    background:#fff;
+
+    color:#ff8a00;
+
+    font-size:18px;
+
+    font-weight:700;
+
+    padding:15px 40px;
+
+    border-radius:50px;
+
+    cursor:pointer;
+
+    transition:.35s;
+
+}
+
+.learn-btn:hover{
+
+    background:#0b1f57;
+
+    color:#fff;
+
+    transform:translateY(-3px);
+
+    box-shadow:0 10px 25px rgba(0,0,0,.18);
+
+}
+
+/* =====================================
+   Mobile Menu Card
+===================================== */
+
+.mobile-menu{
+
+    background:#fff;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.12);
+
+    min-height:580px;
+
+}
+
+.mobile-header{
+
+    background:#0b1f57;
+
+    padding:20px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.mobile-logo{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+}
+
+.mobile-logo img{
+
+    width:58px;
+
+    height:58px;
+
+    object-fit:contain;
+
+}
+
+.mobile-logo h3{
+
+    color:#fff;
+
+    font-size:24px;
+
+    margin:0;
+
+    line-height:1.2;
+
+}
+
+.mobile-logo span{
+
+    color:#ffb347;
+
+    font-size:13px;
+
+    font-weight:500;
+
+}
+
+.close-btn{
+
+    width:42px;
+
+    height:42px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:#fff;
+
+    color:#0b1f57;
+
+    font-size:20px;
+
+    cursor:pointer;
+
+}
+/* =====================================
+   Mobile Menu Items
+===================================== */
+
+.mobile-list{
+
+    list-style:none;
+
+    margin:0;
+
+    padding:0;
+
+}
+
+.mobile-list li{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:18px 22px;
+
+    border-bottom:1px solid #eeeeee;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.mobile-list li:last-child{
+
+    border-bottom:none;
+
+}
+
+.mobile-list li:hover{
+
+    background:#fff7ef;
+
+}
+
+.mobile-list li.active{
+
+    background:#fff3e6;
+
+    border-left:5px solid #ff8a00;
+
+}
+
+.mobile-list li div{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:14px;
+
+}
+
+.mobile-list li svg{
+
+    font-size:20px;
+
+}
+
+.mobile-list li div svg{
+
+    color:#0b1f57;
+
+}
+
+.mobile-list li span{
+
+    font-size:17px;
+
+    color:#222;
+
+    font-weight:500;
+
+}
+
+.mobile-list li>svg{
+
+    color:#999;
+
+    font-size:15px;
+
+}
+
+/* =====================================
+   Mobile Footer
+===================================== */
+
+.mobile-footer{
+
+    padding:25px;
+
+    background:#fafafa;
+
+    border-top:1px solid #eee;
+
+}
+
+.member-login{
+
+    width:100%;
+
+    height:55px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#ff8a00;
+
+    color:#fff;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:10px;
+
+    cursor:pointer;
+
+    transition:.35s;
+
+}
+
+.member-login:hover{
+
+    background:#0b1f57;
+
+    transform:translateY(-2px);
+
+    box-shadow:0 10px 20px rgba(0,0,0,.15);
+
+}
+
+/* =====================================
+   Animations
+===================================== */
+
+.menu-item,
+.mobile-list li,
+.learn-btn,
+.member-login{
+
+    transition:all .35s ease;
+
+}
+
+.menu-item:hover{
+
+    transform:translateX(8px);
+
+}
+
+.mobile-list li:hover{
+
+    padding-left:28px;
+
+}
+/* =====================================
+   RESPONSIVE
+===================================== */
+
+@media (max-width:1200px){
+
+    .mega-menu-box{
+        min-height:auto;
+    }
+
+    .menu-item{
+        padding:18px 20px;
+    }
+
+    .menu-item h4{
+        font-size:19px;
+    }
+
+    .menu-item p{
+        font-size:14px;
+    }
+
+    .menu-right h2{
+        font-size:30px;
+        line-height:42px;
+    }
+
+    .menu-right p{
+        font-size:16px;
+        line-height:28px;
+    }
+
+}
+
+@media (max-width:992px){
+
+    .demo-heading{
+        margin-top:35px;
+        font-size:28px;
+    }
+
+    .mega-menu-box{
+
+        flex-direction:column;
+
+    }
+
+    .menu-left,
+    .menu-right{
+
+        width:100%;
+
+    }
+
+    .menu-right{
+
+        padding:45px 25px;
+
+    }
+
+    .mobile-menu{
+
+        margin-top:35px;
+
+    }
+
+    .triangle{
+
+        display:none;
+
+    }
+
+}
+
+@media (max-width:768px){
+
+    .mega-wrapper{
+
+        padding:50px 15px;
+
+    }
+
+    .menu-item{
+
+        gap:14px;
+
+        padding:16px;
+
+    }
+
+    .menu-icon{
+
+        width:48px;
+        height:48px;
+        font-size:22px;
+
+    }
+
+    .menu-item h4{
+
+        font-size:17px;
+
+    }
+
+    .menu-item p{
+
+        font-size:13px;
+
+        line-height:22px;
+
+    }
+
+    .menu-right h2{
+
+        font-size:26px;
+
+        line-height:38px;
+
+    }
+
+    .menu-right p{
+
+        font-size:15px;
+
+        line-height:26px;
+
+    }
+
+    .learn-btn{
+
+        width:100%;
+
+    }
+
+    .mobile-logo img{
+
+        width:45px;
+        height:45px;
+
+    }
+
+    .mobile-logo h3{
+
+        font-size:20px;
+
+    }
+
+}
+
+@media (max-width:576px){
+
+    .demo-heading{
+
+        font-size:24px;
+
+    }
+
+    .menu-item{
+
+        flex-direction:column;
+
+        text-align:center;
+
+    }
+
+    .menu-item h4{
+
+        font-size:16px;
+
+    }
+
+    .menu-item p{
+
+        display:none;
+
+    }
+
+    .menu-right{
+
+        padding:35px 20px;
+
+    }
+
+    .menu-right h2{
+
+        font-size:22px;
+
+        line-height:32px;
+
+    }
+
+    .right-icon{
+
+        width:70px;
+        height:70px;
+        font-size:32px;
+
+    }
+
+    .mobile-header{
+
+        padding:15px;
+
+    }
+
+    .mobile-list li{
+
+        padding:15px;
+
+    }
+
+    .member-login{
+
+        height:50px;
+
+        font-size:16px;
+
+    }
+
+}
