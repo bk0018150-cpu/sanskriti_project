@@ -4,7 +4,7 @@ import viteLogo from './assets/vite.svg'
 import "./App.css"
 import Navbarr from './Components/Navbarr'
 import HeaderInfo from './Components/HeaderInfo'
-import TopBar from './components/TopBar'
+import TopBar from './Components/TopBar'
 import MegaMenu from './Components/Megamenu'
 
 
